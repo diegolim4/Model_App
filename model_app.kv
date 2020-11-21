@@ -1,0 +1,175 @@
+Gerenciador:
+    TelaInicial:
+    Tela1:
+    Tela2:
+    Tela3:
+    Tela4:
+    Tela5:
+    Tela6:
+
+<TelaInicial>:
+    name: 'telainicial'
+    BoxLayout:
+        canvas:
+            Color:
+                rgba:1,1,1,.4
+            Rectangle:
+                size:self.size
+                pos:self.pos
+                source: 'photos/img.png' # nome da pasta e nome da imagem
+
+    BoxLayout:
+        canvas:
+            Color:
+                rgba: 255,69,0,.5
+            RoundedRectangle:
+                size: 150, 140
+                pos:440, 170
+                radius: [(40, 40),(40,40),(40,40),(40,40)]
+
+
+    BoxLayout:
+        canvas:
+            Color:
+                rgba: 255,69,0,.5
+            RoundedRectangle:
+                size: 150, 140
+                pos:600, 170
+                radius: [(40, 40),(40,40),(40,40),(40,40)]
+
+
+    BoxLayout:
+        canvas:
+            Color:
+                rgba: 255,69,0,.5
+            RoundedRectangle:
+                size: 150,140
+                pos:760, 170
+                radius: [(40, 40),(40,40),(40,40),(40,40)]
+
+    BoxLayout:
+        canvas:
+            Color:
+                rgba: 255,69,0,.5
+            RoundedRectangle:
+                size: 150, 140
+                pos:440, 20
+                radius: [(40, 40),(40,40),(40,40),(40,40)]
+
+    BoxLayout:
+        canvas:
+            Color:
+                rgba: 255,69,0,.5
+            RoundedRectangle:
+                size: 150, 140
+                pos:600, 20
+                radius: [(40, 40),(40,40),(40,40),(40,40)]
+
+    BoxLayout:
+        canvas:
+            Color:
+                rgba: 255,69,0,.5
+            RoundedRectangle:
+                size: 150, 140
+                pos:760, 20
+                radius: [(40, 40),(40,40),(40,40),(40,40)]
+
+    BoxLayout:
+        canvas:
+            Color:
+                rgba: 255,69,0,.5
+            RoundedRectangle:
+                size: 460, 350
+                pos:440, 330
+                radius: [(40,40),(40,40),(40,40),(40,40)]
+
+    Button:
+        background_normal:'icon/ball.png'
+        #text:'Liturgia'
+        size_hint: None, None
+        pos: 420, 160
+        size:200,150
+        on_press:
+            app.root.current = 'tela1'
+            root.manager.transition.direction ='left'
+    Button:
+        background_normal:'icon/ball.png'
+        #text:'Liturgia'
+        size_hint: None, None
+        pos: 580, 160
+        size:200,150
+        on_press:
+            app.root.current = 'tela2'
+            root.manager.transition.direction ='left'
+    Button:
+        background_normal:'icon/ball.png'
+        #text:'Liturgia'
+        size_hint: None, None
+        pos: 740, 160
+        size:200,150
+        on_press:
+            app.root.current = 'tela3'
+            root.manager.transition.direction ='left'
+    Button:
+        background_normal:'icon/ball.png'
+        #text:'Liturgia'
+        size_hint: None, None
+        pos: 420,10
+        size:200,150
+        on_press:
+            app.root.current = 'tela4'
+            root.manager.transition.direction ='left'
+
+    Button:
+        background_normal:'icon/ball.png'
+        #text:'Liturgia'
+        size_hint: None, None
+        pos: 580,10
+        size:200,150
+        on_press:
+            app.root.current = 'tela5'
+            root.manager.transition.direction ='left'
+
+    Button:
+        background_normal:'icon/ball.png'
+        #text:'Liturgia'
+        size_hint: None, None
+        pos: 740,10
+        size:200,150
+        on_press:
+            app.root.current = 'tela6'
+            root.manager.transition.direction ='left'
+
+
+
+<Tela1>:
+    name: 'tela1'
+    FloatLayout:
+
+
+
+<Tela2>:
+    name: 'tela2'
+    FloatLayout:
+    Button:
+        text: 'aperte'
+
+<Tela3>:
+    name: 'tela3'
+    FloatLayout:
+    Button:
+
+<Tela4>:
+    name: 'tela4'
+    FloatLayout:
+    Button:
+
+<Tela5>:
+    name: 'tela5'
+    FloatLayout:
+    Button:
+
+<Tela6>:
+    name: 'tela6'
+    FloatLayout:
+    Button:
