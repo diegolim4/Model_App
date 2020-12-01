@@ -1,5 +1,5 @@
 # Model_App
-front end de um modelo, de um aplicativo mobile em kivy/python
+front-End modelo, de um aplicativo mobile em kivy/python
 
 O primeiro arquivo .py é onde fazemos a chamada da classe e passamos para o .kv !
 
