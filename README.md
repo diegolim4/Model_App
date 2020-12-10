@@ -1,5 +1,5 @@
 # Modelo de um aplicativo
-front-End modelo, de um aplicativo mobile em python
+Front-End modelo, de um aplicativo mobile em python
 
 O primeiro arquivo .py é onde fazemos a chamada da classe e passamos para o .kv !
 
